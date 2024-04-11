@@ -1,4 +1,4 @@
-# <img src="https://raw.githubusercontent.com/voodootikigod/logo.java/master/java.svg" width="30" height="30" alt="Java Logo"> Repositório de Estudos em Java
+# <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="60" alt="Java Logo"> Repositório de Estudos em Java
 
 Boas vindas ao meu repositório de estudos em Java, onde faço anotações e observações acerca dos meus estudos em Java.
 
