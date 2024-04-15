@@ -4,5 +4,5 @@
 /**
  * 
  */
-module Teste {
+module JavaBásico {
 }
