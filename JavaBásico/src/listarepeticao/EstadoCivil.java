@@ -33,7 +33,7 @@ public class EstadoCivil {
 			}
 			
 			cont++;
-		} while (cont != 5);
+		} while (cont != 5); // cont para quando 5 pessoas responderem ao todo.
 
 		System.out.println("Média de idade das mulheres - "+(idf/5)+" anos");
 		if (c > s) {
