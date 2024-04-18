@@ -7,7 +7,6 @@ public class Shopping {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int idade, sexo, cod, o1, o2, o3, o4, s1, s2, total;
-
 		o1 = 0;
 		o2 = 0;
 		o3 = 0;
