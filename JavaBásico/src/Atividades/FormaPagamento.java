@@ -28,13 +28,13 @@ public class FormaPagamento {
 		form = sc.nextDouble();
 		
 		if (form == 1) {
-			System.out.println("Preço total à vista em dinheiro ou Pix: "+(valor = valor-(valor*0.15)));
+			System.out.println("Preço total à vista em dinheiro ou Pix: "+"R$"+(valor = valor-(valor*0.15)));
 		} else if (form == 2) {
-			System.out.println("Preço total à vista no cartão: "+(valor-(valor*0.1))); 
+			System.out.println("Preço total à vista no cartão: "+"R$"+(valor-(valor*0.1))); 
 		} else if (form == 3) {
-			System.out.println("Preço total em até 2x no cartão: "+valor);
+			System.out.println("Preço total em até 2x no cartão: "+"R$"+valor);
 		} else if (form == 4) {
-			System.out.println("Preço total em 3x ou + (10% de juros): "+(valor+(valor*0.1)));
+			System.out.println("Preço total em 3x ou + (10% de juros): "+"R$"+(valor+(valor*0.1)));
 		} else {
 			System.out.println("Digite uma forma de pagamento válida.");
 		}
