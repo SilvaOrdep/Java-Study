@@ -39,6 +39,7 @@ public class FormaPagamento {
 			System.out.println("Digite uma forma de pagamento válida.");
 		}
 		
+		sc.close();
 	}
 
 }
