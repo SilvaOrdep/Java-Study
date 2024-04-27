@@ -49,7 +49,7 @@ public class Shopping {
 		System.out.println((o2 * 100 / total) + "% - Serviços (Banco, correio,etc.)");
 		System.out.println((o3 * 100 / total) + "% - Lazer (Cinema, jogos,etc.)");
 		System.out.println((o4 * 100 / total) + "% - Alimentação (restaurantes e lanchonetes)");
-		
+		idade = idade +1;
 		total = s1+s2;
 		
 		System.out.println("Percentual de frequencia (Aproximadamente):");

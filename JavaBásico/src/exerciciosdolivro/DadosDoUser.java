@@ -12,14 +12,18 @@ public class DadosDoUser {
 	System.out.println("Digite seu nome e após ENTER, digite o sobrenome:");
 	name = sc.next();
 	lastname = sc.next();
+	
 	System.out.println("Digite seu Endereço:");
-	adress = sc.next();
+	adress = sc.nextLine();
+	adress = sc.nextLine();
+	
 	System.out.println("Digite o número da casa:");
 	num = sc.nextInt();
 	
 	System.out.println("");
 	System.out.println(lastname+", "+name+": "+adress+", "+num);
-
+	
+	sc.close();
 	}
 
 }
