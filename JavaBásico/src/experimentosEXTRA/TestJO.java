@@ -13,6 +13,6 @@ public class TestJO {
 		panel.add(label);
 		String name = "";
 		name = JOptionPane.showInputDialog(null, "Digite seu nome:");
-		JOptionPane.showMessageDialog(null, panel, "Test", JOptionPane.PLAIN_MESSAGE);
+		JOptionPane.showMessageDialog(null, panel, name, JOptionPane.PLAIN_MESSAGE);
 	}
 }
