@@ -11,9 +11,16 @@ public class identação {
 		System.out.println("Recuperação");
 		else
 		System.out.println("Aprovado");
+		
+		// Com identação:
+		int media = 5;
+		if (media < 6)
+			System.out.println("Reprovado");
+		else if (media == 6)
+			System.out.println("Recuperação");
+		else
+			System.out.println("Aprovado");
+		
+		// Identar permite uma leitura mais ampla do código, podendo apresentar melhor a hierarquia dos códigos.
 	}
-	
-	
-	
-
 }
