@@ -3,11 +3,11 @@ package operadores;
 public class ternarios {
 
 	public static void main(String[] args) {
-		int a=6, b=6;
+		int a=6, b=5;
 		
-		String canso = a==b ? "verdadeiro" : "falso";
+		String verificar = a==b ? "verdadeiro" : "falso";
 		
-		System.out.println(canso);
+		System.out.println(verificar);
 	}
 
 }
