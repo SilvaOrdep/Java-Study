@@ -1,8 +1,8 @@
-package exerciciosdolivro;
+package atividades.interacaouser;
 
 import java.util.Scanner;
 
-public class Cotacao {
+public class Q02Cotacao {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

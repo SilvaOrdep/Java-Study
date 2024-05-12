@@ -16,9 +16,8 @@ public class simples {
 			saldo= saldo-saque;
 			System.out.println("Parabéns, saque realizado! \nSeu saldo: R$"+saldo);
 		}
-			
 		
-
+		sc.close();
 	}
 
 }
