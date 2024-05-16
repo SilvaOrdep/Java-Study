@@ -21,6 +21,7 @@ public class Q06Substituir {
 				System.out.println(num+" foi encontrado no vetor, no índice "+i);
 			} 
 		}
+		// faltando mostrar a mensagem caso não tenha, eu n consegui
 	}
 
 }
