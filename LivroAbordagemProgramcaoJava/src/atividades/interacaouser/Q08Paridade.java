@@ -1,7 +1,7 @@
 package atividades.interacaouser;
 
 import java.util.Scanner;
-import javax.swing.JOptionPane;
+import javax.swing.*;
 
 public class Q08Paridade {
 	public static int paridade(int num) {

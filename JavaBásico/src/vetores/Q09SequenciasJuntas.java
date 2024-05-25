@@ -52,7 +52,5 @@ public class Q09SequenciasJuntas {
 		for (int i = 0; i < d.length; i++) {
 			System.out.println(d[i]);
 		}
-		
 	}
-
 }

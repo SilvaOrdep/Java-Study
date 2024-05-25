@@ -11,7 +11,7 @@ public class Q01AlterarSenha {
 		String user, password, novaPass;
 		novaPass = "";
 
-		System.out.println("Login" + "\n" + "\nUsuário:");
+		System.out.println("Login" + "\nUsuário:");
 		user = sc.next();
 
 		System.out.println("Senha:");

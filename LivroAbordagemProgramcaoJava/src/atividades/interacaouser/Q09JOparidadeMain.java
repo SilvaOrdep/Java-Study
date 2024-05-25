@@ -1,6 +1,6 @@
 package atividades.interacaouser;
 
-import javax.swing.JOptionPane;
+import javax.swing.*;
 
 public class Q09JOparidadeMain {
 

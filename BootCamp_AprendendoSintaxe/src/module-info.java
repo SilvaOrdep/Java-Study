@@ -1,8 +1,0 @@
-/**
- * 
- */
-/**
- * 
- */
-module BootCamp_AprendendoSintaxe {
-}
