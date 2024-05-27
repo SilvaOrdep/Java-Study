@@ -1,4 +1,4 @@
-package classes.objetosInto;
+package classes.model;
 
 public class Student {
     public String name;
