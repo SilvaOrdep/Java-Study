@@ -1,38 +1,37 @@
-package vetores;
+package executavel;
 
 import java.util.Scanner;
 
-public class Q07Sequencias {
+public class Programa {
+
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		int k, t2 = 0, controle = 0;
-		int v1[] = new int[10];
-		int v2[] = new int[10]; // eu queria colocar o tamanho t2 mas dá erro
+		int v1[] = new int[20];
+		int v2[] = new int[20];
+		int i=0, k=0, t1=0, t2=0;
+		char continuar;
+		do {
+			System.out.println("Informe um número: ");
+			v1[t1] = sc.nextInt();
+			System.out.println("Continuar (s)im ou (n)ão? ");
+			continuar = sc.next().charAt(0);
+			t1++;
+		} while ((continuar == 's') && (t1 < 20));
 
-		System.out.println("Digite os valores do vetor:");
-		for (int i = 0; i < v1.length; i++) {
-			v1[i] = sc.nextInt();
-		}
-
-		for (int i = 0; i < v1.length; i++) {
-
-			for (k = 0; k < v1.length; k++) {
+		for (i=0; i < t1; i++) {
+			for (k=0; k < t2; k++) {
 				if (v1[i] == v2[k]) {
-					controle = 1;
 					break;
 				}
 			}
-			if (controle == 0) {
+			if (k == t2) {
 				v2[t2] = v1[i];
 				t2++;
 			}
-			controle = 0;
 		}
-
-		for (int i = 0; i < v2.length; i++) {
-			System.out.println(v2[i]);
+		System.out.println("Os n~umeros sem repetição: ");
+		for (k=0; k < t2; k++) {
+			System.out.println(v2[k]);
 		}
-
-		sc.close();
 	}
 }
