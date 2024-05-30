@@ -1,6 +1,6 @@
-package classes;
+package classesAndPacotes;
 
-import classes.model.Student;
+import classesAndPacotes.model.Student;
 
 public class School {
     public static void main(String[] args) {

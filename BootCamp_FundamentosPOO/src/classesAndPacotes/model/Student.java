@@ -1,4 +1,4 @@
-package classes.model;
+package classesAndPacotes.model;
 
 public class Student {
     public String name;
