@@ -1,4 +1,4 @@
-package study.controller;
+package study.gof.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import study.model.Cliente;
-import study.service.ClienteService;
+import study.gof.model.Cliente;
+import study.gof.service.ClienteService;
 
 
 @RestController
@@ -37,13 +37,13 @@ public class ClienteRestController {
         return ResponseEntity.ok(cliente);
     }
 
-    @PutMapping
+    @PutMapping("/{id}")
     public ResponseEntity<Cliente> atualizar(@PathVariable Long id, @RequestBody Cliente cliente) {
         clienteService.alterar(id, cliente);
         return ResponseEntity.ok(cliente);
     }
 
-    @DeleteMapping
+    @DeleteMapping("/{id}")
     public ResponseEntity<Void> deletar(@PathVariable Long id) {
         clienteService.excluir(id);
         return ResponseEntity.ok().build();

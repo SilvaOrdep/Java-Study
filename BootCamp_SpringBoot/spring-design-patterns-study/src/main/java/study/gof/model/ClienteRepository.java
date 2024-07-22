@@ -1,4 +1,4 @@
-package study.model;
+package study.gof.model;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;

@@ -1,7 +1,7 @@
-package study.service;
+package study.gof.service;
 
 import org.springframework.stereotype.Service;
-import study.model.Cliente;
+import study.gof.model.Cliente;
 
 @Service
 public interface ClienteService {
