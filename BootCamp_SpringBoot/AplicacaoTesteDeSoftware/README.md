@@ -1,4 +1,4 @@
-_# AplicacaoTesteDeSoftware
+# AplicacaoTesteDeSoftware
 
 ## Descrição
 Este projeto é uma aplicação Spring Boot que fornece uma API REST para operações básicas de calculadora, como soma, subtração, multiplicação e divisão. A aplicação também inclui tratamento global de exceções e testes unitários e de integração.
