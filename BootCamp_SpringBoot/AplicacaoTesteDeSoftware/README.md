@@ -32,7 +32,7 @@ O arquivo `pom.xml` contém todas as dependências necessárias para o projeto.
 ## Estrutura do Projeto
 #### `AplicacaoTesteDeSoftwareApplication.java`
 Esta é a classe principal que inicia a aplicação Spring Boot.
-```angular2html
+```java
 @SpringBootApplication
 public class AplicacaoTesteDeSoftware {
     public static void main(String[] args) {
@@ -43,7 +43,7 @@ public class AplicacaoTesteDeSoftware {
 
 #### `CalculadoraService.java`
 Esta classe fornece os métodos de serviço para operações de calculadora.
-```angular2html
+```java
 @SpringBootApplication
 public class AplicacaoTesteDeSoftware {
     public static void main(String[] args) {
@@ -54,7 +54,7 @@ public class AplicacaoTesteDeSoftware {
 
 #### `CalculadoraController.java`
 Este controlador expõe os endpoints da API REST para as operações de calculadora.
-```angular2html
+```java
 @RestController
 @RequestMapping("/api/calculadora")
 public class CalculadoraController {
@@ -79,7 +79,7 @@ public class CalculadoraController {
 ### Unitários
 #### `CalculadoraServiceTest.java`
 Testes unitários para os métodos do CalculadoraService.
-```angular2html
+```java
 public class CalculadoraServiceTest {
     private final CalculadoraService calculatorService = new CalculadoraService();
     
@@ -116,7 +116,7 @@ public class CalculadoraServiceTest {
 ### Integração
 #### `CalculadoraControllerIntegrationTest.java`
 Testes de integração para os endpoints do CalculadoraController.
-```angular2html
+```java
 @SpringBootTest
 @AutoConfigureMockMvc
 public class CalculadoraControllerIntegrationTest {
