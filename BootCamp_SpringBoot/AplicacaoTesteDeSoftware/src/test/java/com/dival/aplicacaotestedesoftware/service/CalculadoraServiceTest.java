@@ -9,7 +9,7 @@ public class CalculadoraServiceTest {
 
     @Test
     void testSoma() {
-        assertEquals(5, calculatorService.soma(2, 3));
+        assertEquals(6, calculatorService.soma(3, 3));
     }
 
     @Test
