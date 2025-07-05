@@ -20,7 +20,9 @@ public class Livro {
 
     public Livro(DadosLivro dadosLivro) {
         this.titulo = dadosLivro.titulo();
-        this.autores = dadosLivro.autores();
+        this.autores = dadosLivro.autores().stream()
+                .map(Autor::new)
+                .toList();
     }
 
     public Long getId() {

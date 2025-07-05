@@ -11,7 +11,7 @@ public class ConsumoGutendexAPI {
 
     public String ObterDadosPorTitulo(String tituloLivro) {
         HttpClient cliente = HttpClient.newHttpClient();
-        HttpRequest requisicao = HttpRequest.newBuilder().uri(URI.create(uri+"?search="+tituloLivro.replace(" ","+"))).build();
+        HttpRequest requisicao = HttpRequest.newBuilder().uri(URI.create(uri+"/?search="+tituloLivro.replace(" ","+"))).build();
         HttpResponse<String> resposta = null;
         try {
             resposta = cliente

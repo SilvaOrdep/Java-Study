@@ -1,19 +1,21 @@
 package com.alura.literalura.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 
 import java.util.List;
 
 
 @Entity
-@Table(name = "autores")
+@Table(name = "autores", uniqueConstraints = @UniqueConstraint(columnNames = "nome"))
 public class Autor {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private int anoNascimento, anoFalecimento;
     private String nome;
-    @ManyToMany(mappedBy = "autores")
+    @ManyToMany(mappedBy = "autores", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @JsonIgnore
     private List<Livro> livros;
 
     public Autor() {

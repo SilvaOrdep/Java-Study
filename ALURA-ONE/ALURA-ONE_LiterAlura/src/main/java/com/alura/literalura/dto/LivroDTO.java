@@ -6,5 +6,5 @@ import java.util.List;
 
 public record LivroDTO(Long id,
                        String titulo,
-                       List<Autor> autores) {
+                       List<AutorDTO> autores) {
 }
